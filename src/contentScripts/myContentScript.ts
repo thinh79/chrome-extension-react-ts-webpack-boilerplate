@@ -3,7 +3,7 @@
 // Function to modify the DOM of the current page
 function modifyDOM() {
     // Example: Change the background color of the page
-    document.body.style.backgroundColor = 'lightblue';
+    console.log('src/contentScripts/myContentScript.ts said: Content script DOM modification');
 
     // You can do more complex DOM manipulations here
 }
@@ -27,7 +27,8 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
     // Example action based on the received message
     if (request.command === 'changeColor') {
-        document.body.style.backgroundColor = request.color;
+        // document.body.style.backgroundColor = request.color;
+        console.log('Changing color to', request.color);
     }
 
     // Respond back if necessary

@@ -1,7 +1,9 @@
 
 # My Chrome Extension
 
-## Description
+Author: Thinh Bui
+
+## Descriptio
 
 This Chrome Extension is a React-based (TypeScript, Webpack) application integrated with Tailwind CSS for styling. It utilizes the power of Chrome's extensive APIs to enhance user browsing experience by providing custom functionality directly within the browser.
 
